@@ -1,10 +1,9 @@
 #include "holberton.h"
 void swap_int(int *a, int *b)
 {
-  int c;
-  /* store the value located at address of a */
-  c = *a;
-  /* reassign the value of *a to the value of *b */
-  *a = *b;
-  *b = c;
+int c, d;
+c = *a;
+d = *b;
+*a = d;
+*b = c;
 }
