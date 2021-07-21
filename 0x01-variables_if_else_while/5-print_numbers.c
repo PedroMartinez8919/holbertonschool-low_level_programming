@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 /**
  * main - Entry point
  *
@@ -7,11 +8,12 @@
  */
 int main(void)
 {
-int numbers = 0;
-while (numbers >= 9)
+char numbs = '0';
+while (numbs <= '9')
 {
-printf("%d\n", numbers);
-numbers++;
+putchar(numbs);
+numbs++;
 }
+putchar('\n');
 return (0);
 }
