@@ -1,17 +1,16 @@
 #include "holberton.h"
 /**
- * main - Entry Point.
+ * This function prints the alphabet.
  *
- * Return : Always 0 (Success).
+ * Return : No return values.
  */
-int main(void)
-{
-char alphabet = 'a'; 
-while (alphabet <= 'z')
+void print_alphabet(void)
 { 
-_putchar (alphabet);
-alphabet++;
+char alphabe_t = 'a'; 
+while (alphabe_t <= 'z')
+{ 
+_putchar (alphabe_t);
+alphabe_t++;
 }
 _putchar ('\n');
-return (0);
 }
