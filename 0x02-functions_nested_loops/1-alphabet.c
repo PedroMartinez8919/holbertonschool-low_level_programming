@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- * The function print_alphabet prints the alphabet from a to z.
+ * print_alphabet - This function prints the alphabet from a to z.
  *
- * Return : No return values.
+ * Return : The function does not have a return values.
  */
 void print_alphabet(void)
 {
